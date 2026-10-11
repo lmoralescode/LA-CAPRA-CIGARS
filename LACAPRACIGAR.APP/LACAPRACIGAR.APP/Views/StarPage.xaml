@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="LACAPRACIGAR.APP.Views.StarPage"
+             BackgroundColor="Black"
+             Title="StarPage">
+    
+<ScrollView>
+
+        <VerticalStackLayout 
+            Padding="0,10"
+            Spacing="10">
+
+        <Image Source="altacapra.png"/>
+
+        <Label                 
+            Text="Bienvenid@s a:"
+            TextColor="DarkGoldenrod"
+            FontSize="Large"
+            FontAttributes="Bold"
+            VerticalOptions="Center" 
+            HorizontalOptions="Center" />
+
+        <Label
+            Text=" | La Capra Cigars |" 
+            TextColor="DarkGoldenrod"
+            FontSize="Medium"
+            VerticalOptions="Center"
+            HorizontalOptions="Center"/>
+
+
+        <Button     x:Name="ButtonSeccion"
+                        Margin="15"
+                        Text="Iniciar Sesión"
+                        BackgroundColor="DarkGoldenrod"
+                        TextColor="White"
+                        WidthRequest="150"
+                        HeightRequest="10"/>
+
+        <Button     x:Name="ButtonRegistrar"
+                        Text="Registrarse"
+                        BackgroundColor="DarkGoldenrod"
+                        TextColor="White"
+                        WidthRequest="150"
+                        HeightRequest="10"/>
+
+        </VerticalStackLayout>
+    </ScrollView>
+</ContentPage>
